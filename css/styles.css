@@ -82,6 +82,10 @@ h3 {
   margin: 0;
   padding: 0;
 }
+.other h4 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+}
 h4 {
   font-weight: 400;
 }
@@ -91,6 +95,7 @@ p {
 .subtitle {
   border-top: 0.02rem solid #232323;
   padding-top: 0.5rem;
+  margin: 3rem auto;
 }
 div, footer, .other {
   width: 100%;
@@ -120,34 +125,30 @@ header h4 {
 }
 main {
   margin: 3rem auto;
-  flex-flow: column nowrap;
+  width: 100%;
 }
 footer h3 {
   margin-bottom: 1rem;
 }
 /*what i do section*/ 
 .project {
-  flex-flow: column nowrap;
-  margin: 2rem auto;
+  margin: 2rem 2rem;
   padding: 1rem;
   border: 0.02rem solid #232323;
+  width: 60%;
+  justify-content: flex-start;
 }
 .prtext {
   margin-top: 1rem;
-  width: 50%;
 }
 img {
   width: 100%;
   height: auto;
 }
-.subtitle {
-  margin-top: 2rem;
-}
-
 /*what else i do section*/ 
 .other {
-  display: flex;
-  margin: 2rem auto;
+  width: 40%;
+  margin: 1rem 1rem;
 }
 .box {
   border: 0.1rem solid #232323;
@@ -155,25 +156,24 @@ img {
   text-align: center;
   transition: all 1s;
 }
+/*about me section*/ 
+#about .onepg {
+  width: 50%;
+  margin: 2rem 2rem;
+}
 /*project page*/ 
 .heapg {
   justify-content: space-between;
   padding: 0;
   margin: 5rem auto;
 }
-
-.threepg {
-  display: flex;
-  flex-flow: row nowrap;
-  margin: 2rem auto;
-  width: 80%;
-}
-.threepg p {
-  margin: 0.5rem;
-}
-.onepg {
+.twopg {
+  margin: 2rem 2rem;
   width: 60%;
-  margin: 2rem auto;
+}
+
+.lownav {
+   justify-content: space-between;
 }
 
 /*end project*/ 
@@ -222,5 +222,6 @@ h1 a, h1 {
 }
  }
 
+  
   
 
