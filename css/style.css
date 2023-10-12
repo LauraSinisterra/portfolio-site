@@ -1,3 +1,4 @@
+/* CSS files add styling rules to your content */
 @import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;100;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,100;0,600;0,700;1,300;1,400;1,100;1,600;1,700&display=swap');
 
@@ -106,6 +107,13 @@ h4 a:hover  {
 .nav {
   width: 100%;
 }
+/** index */
+
+.thumbnail {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+}
 
 /** projects */
 
@@ -129,6 +137,14 @@ h4 a:hover  {
 
 .about {
   margin-top: 5rem;
+}
+
+.project_group {
+  margin: 2rem 0;
+}
+
+.margin_bottom {
+  margin-bottom: .5rem;
 }
 
 /** table */
@@ -230,21 +246,20 @@ li {
 }
 @media all and (max-width: 640px) {
   body {
-    font-size: 0.9rem;
-  }
-  p {
     font-size: 0.8rem;
   }
-  h1 {
-    font-size: 1.1rem;
+  p {
+    font-size: 0.7rem;
   }
-  h2 {
+  h1 {
     font-size: 1rem;
   }
-  h3 {
+  h2 {
     font-size: .9rem;
-    margin-top: 1rem;
+  }
+  h3 {
+    font-size: .8rem;
+    margin-top: .9rem;
   }
 
 }
-
